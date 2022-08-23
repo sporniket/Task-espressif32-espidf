@@ -11,7 +11,7 @@
 #include <freertos/task.h>
 #include <string>
 
-#include "Task.hpp"
+#include "Task.h"
 #include "sdkconfig.h"
 
 static const char* LOG_TAG = "Task";
