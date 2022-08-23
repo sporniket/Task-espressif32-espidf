@@ -1,0 +1,31 @@
+{
+    "name": "Task",
+    "version": "0.0.1",
+    "description": "C++ library for PlatformIO, provides the wrapper class 'Task' taken from https://github.com/nkolban/esp32-snippets",
+    "keywords": "task, FreeRTOS, cpp, wrapper, esp32, espressif32, espidf",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sporniket/Task-espressif32-espidf"
+    },
+    "authors": [
+        {
+            "name": "Neil Kolban",
+            "email": "kolban1@kolban.com",
+            "url": "https://github.com/nkolban"
+        },
+        {
+            "name": "David SPORN",
+            "url": "https://github.com/sporniket",
+            "maintainer": true
+        }
+    ],
+    "export": {
+        "exclude": [
+            ".gitignore",
+            "*.gz"
+        ]
+    },
+    "license": "Apache-2.0",
+    "frameworks": ["espidf"],
+    "platforms": ["espressif32"]
+}
